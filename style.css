@@ -1,0 +1,24 @@
+body{
+    width: 70%;
+    height: 700px;
+    position: relative;
+}
+.popup {
+    
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin: auto auto;
+    background-color: black;
+    opacity: 0.8;
+    color:#fff; 
+    text-align: center;
+    border: 5px solid #000;
+    display: none;
+    
+}
+#close {
+    color:red;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
